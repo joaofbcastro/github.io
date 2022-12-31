@@ -1,0 +1,41 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 3rem;
+  padding: 2rem 1rem 2rem;
+
+  background-color: #003366;
+  border-bottom: 0.2rem solid white;
+}
+
+.section__div {
+  max-width: 45rem;
+}
+
+.section__img {
+  width: 16rem;
+  max-width: 80vw;
+  height: auto;
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+}
+
+.section__title {
+  font-size: 1.85rem;
+}
+
+.section__subtitle {
+  margin-bottom: .5rem;
+
+  color: #888;
+  font-style: italic;
+  font-size: 1.15rem;
+}
+
+.section__text {
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+}

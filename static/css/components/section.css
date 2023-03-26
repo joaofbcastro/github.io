@@ -52,7 +52,7 @@
   cursor: pointer;
   margin: 1rem;
   padding: 1.5rem;
-  border: 1px solid #DDD;
+  border: 1px solid var(--font-color);
   border-radius: 10px;
 
   transition: all .3s ease;

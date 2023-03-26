@@ -4,7 +4,7 @@
   --link-color-hover: rgba(255, 255, 255, 25%); 
 }
 
-@media (prefers-color-scheme:daark) {
+@media (prefers-color-scheme:dark) {
   :root {
     --font-color: #FFF;
     --background-color: #333;

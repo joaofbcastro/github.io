@@ -79,9 +79,20 @@
     padding-left: 0rem;
     padding-right: 0rem;
   }
+  .section__title {
+    font-size: 3rem;
+  }
+  .section__subtitle {
+    padding: 0 2rem;
+    font-size: 1.3rem;
+  }
   .section__folders {
     width: 100%;
     grid-template-columns: 1fr;
+  }
+  .section__img {
+    width: 12rem;
+    height: 12rem;
   }
 }
   

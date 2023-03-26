@@ -59,8 +59,9 @@
 }
 
 .section__folder:hover {
-  color: blueviolet;
-  border-color: blueviolet;
+  border-color: var(--font-color);
+  background-color: var(--link-color-hover);
+  box-shadow: .3rem .3rem .8rem 0px rgba(0,0,0,0.75);
 }
 
 .section__folder .folder__title {

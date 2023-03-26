@@ -1,11 +1,13 @@
 :root {
   --font-color: #333;
   --background-color: #FFF;
+  --link-color-hover: rgba(255, 255, 255, 25%); 
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme:daark) {
   :root {
     --font-color: #FFF;
     --background-color: #333;
+    --link-color-hover: rgba(0, 0, 0, 25%); 
   }
 }

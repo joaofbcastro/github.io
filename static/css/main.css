@@ -9,11 +9,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
 
-  background: center/200% linear-gradient(60deg, var(--background-color), blueviolet 200%);
-  animation: aaa 5s alternate-reverse infinite ease-in-out;
+  background: center/1000% linear-gradient(45deg, var(--background-color), blueviolet 200%);
+  animation: anime 5s alternate-reverse infinite ease-in-out;
 }
 
-@keyframes aaa {
+@keyframes anime {
   0% {
     background-position: left;
   }

@@ -89,12 +89,11 @@
   }
   .section__folders {
     width: 100%;
-    margin-top: .5rem;
     grid-template-columns: 1fr;
   }
   .section__img {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
   }
 }
   
